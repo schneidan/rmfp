@@ -2,6 +2,10 @@
 
 A little mini-site built for our photography collective.
 
+#### Installation
+
+Clone the repository into a directory your web server can serve from and surf to it. Add `/admin` to the url to access the backend.
+
 #### Components
 
 CMS: [GetSimple CMS](http://get-simple.info/)
