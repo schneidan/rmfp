@@ -31,7 +31,7 @@
 
 				<!-- Header -->
 					<header id="header" <?php if ($template_file == 'landing.php') { echo "class =\"alt\"";} ?>>
-						<h1><a href="<?php get_site_url(); ?>"><?php get_site_name(); ?></a></h1>
+						<h1><a href="<?php get_site_url(); ?>"><span class="large-screen"><?php get_site_name(); ?></span><span class="small-screen">RMFP</span></a></h1>
 						<!-- <nav id="nav">
 							<ul>
 								<li class="special">

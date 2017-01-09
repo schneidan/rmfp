@@ -58,6 +58,9 @@
 
 /* Grid */
 
+	span.small-screen { display:none; }
+	span.large-screen { display:block; }
+
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
@@ -1176,6 +1179,8 @@
 
 	@media screen and (max-width: 480px) {
 
+		span.small-screen { display:block; }
+		span.large-screen { display:none; }
 		.row > * {
 			padding: 0 0 0 1.5em;
 		}
@@ -3296,6 +3301,14 @@
 
 					#header h1 a {
 						font-size: 0.8em;
+					}
+
+				}
+
+				@media screen and (max-width: 540px) {
+
+					#header h1 a {
+						content:'RMFP';
 					}
 
 				}
